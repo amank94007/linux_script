@@ -1,5 +1,5 @@
 #! /bin/bash
-TOEMAIL="amank94007@gmail.com"
+TOEMAIL="userid@gmail.com" ###enter your userid@gmail.com 
 cd /home/aman/Videos
 echo "enter url:"
 read var
@@ -14,7 +14,7 @@ sudo apt-get install ssmtp
 echo "###add  the following to open file having path is  /etc/ssmtp/ssmtp.conf
 
 # The user that gets all the mails (UID < 1000, usually the admin)
-root=username@gmail.com
+root=username ###enter your userid@gmail.com
 
 # The mail server (where the mail is sent to), both port 465 or 587 should be acceptable
 # See also https://support.google.com/mail/answer/78799
